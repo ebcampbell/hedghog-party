@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #3B3F70;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  color: #D3D4E8;
+  text-align: center;
+  margin: 2%;
+}
+
+.invitation-list,
+.invite-container {
+  margin: auto;
+  width: 56%;
+  background-color: white;
+  padding: 1.5%;
+}
+
+h2 {
+  margin-bottom: 2%;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #3B3F70;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.name-title,
+.name {
+  margin-left: 1%;
+}
+
+.rows {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 1% 0;
+  border-bottom: 1px solid #3B3F70;
+  font-size: 1em;
+}
+
+.name {
+  width: 28%;
+}
+
+.hoglets {
+  width: 33%;
+}
+
+.allergies {
+  width: 30%;
+}
+
+.uninvite-btn {
+  margin-right: 1%;
+  display: block;
+}
+
+.uninvite-btn {
+  width: 8%;
+  padding: 3px;
+  text-transform: uppercase;
+  background-color: #D3D4E8;
+  color: #3B3F70;
+}
+
+.invite-container {
+  background-color: #656794;
+}
+
+.invite-title {
+  color: white;
+  width: 100%;
+}
+
+.input-info {
+  display: flex;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 5%;
+}
+
+input {
+  margin-bottom: 3%;
+  height: 17%;
+}
+
+input[type=text] {
+  padding-left: 10px;
+  font-size: 16px;
+  color: #3B3F70;
+}
+
+input::placeholder {
+  color: #3B3F70;
+}
+
+#invite-btn {
+  height: 20%;
+  color: white;
+  font-size: 1em;
+  background-color: #3B3F70;
+  border: none;
+  letter-spacing: .07em;
+}
+
+.hedgehog-img {
+  width: 295px;
+}
