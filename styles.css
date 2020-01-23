@@ -59,7 +59,8 @@ h2 {
   width: 30%;
 }
 
-.uninvite-btn {
+.uninvite-btn,
+.no-button {
   margin-right: 1%;
   display: block;
 }
@@ -70,6 +71,11 @@ h2 {
   text-transform: uppercase;
   background-color: #D3D4E8;
   color: #3B3F70;
+}
+
+.no-button {
+  width: 8%;
+  padding: 3px;
 }
 
 .invite-container {
