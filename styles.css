@@ -116,6 +116,10 @@ input::placeholder {
   letter-spacing: .07em;
 }
 
+#invite-btn:disabled {
+  background-color: #D3D4E8;
+}
+
 .hedgehog-img {
   width: 295px;
 }
