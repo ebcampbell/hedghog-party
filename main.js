@@ -7,6 +7,9 @@ var uninviteBtn = document.querySelector(".uninvite-btn");
 
 inviteBtn.addEventListener("click", displayInfo);
 dataContainer.addEventListener("click", removeHedgehog);
+nameInput.addEventListener("input", enableInviteBtn);
+hogletInput.addEventListener("input", enableInviteBtn);
+allergiesInput.addEventListener("input", enableInviteBtn);
 
 function displayInfo() {
   dataContainer.innerHTML += `<div class="rows">
@@ -18,6 +21,13 @@ function displayInfo() {
 }
 
 function removeHedgehog() {
-  console.log("purr");
   event.target.parentElement.remove();
+}
+
+function enableInviteBtn() {
+  if (nameInput.value !== "" && hogletInput.value !== "" && allergiesInput.value !== "") {
+    inviteBtn.disabled = false;
+  } else {
+    inviteBtn.disabled = true;
+  }
 }
