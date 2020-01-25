@@ -18,6 +18,8 @@ function displayInfo() {
     <p class="allergies">${allergiesInput.value}</p>
     <button class="uninvite-btn" type="button" name="button">uninvite</button>
   </div>`;
+
+  clearInputs();
 }
 
 function removeHedgehog() {
@@ -30,4 +32,10 @@ function enableInviteBtn() {
   } else {
     inviteBtn.disabled = true;
   }
+}
+
+function clearInputs() {
+  nameInput.value = "";
+  hogletInput.value = "";
+  allergiesInput.value = "";
 }
